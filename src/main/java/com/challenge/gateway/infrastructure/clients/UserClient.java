@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.math.BigDecimal;
 
-@FeignClient(name="userClient", url="http://localhost:8082/api/users",  configuration = FeignConfig.class)
+@FeignClient(name="userClient", url="https://api-operations-d91ca211c6ab.herokuapp.com/api/users",  configuration = FeignConfig.class)
 public interface UserClient {
 
     @PostMapping("/add-balance")
