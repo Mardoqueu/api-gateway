@@ -1,5 +1,9 @@
 package com.challenge.gateway.dto;
 
+/**
+ * The AuthRequestDTO class represents a Data Transfer Object used for user authentication requests.
+ * It encapsulates the information required to authenticate a user, typically a username and password.
+ */
 public class AuthRequestDTO {
     private String userName;
     private String password;

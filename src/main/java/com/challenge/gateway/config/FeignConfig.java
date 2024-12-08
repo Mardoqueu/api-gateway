@@ -9,6 +9,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
+/**
+ * Configuration class for Feign clients.
+ *
+ * This class provides custom configuration for Feign clients,
+ * specifically for customizing the request and error handling behavior.
+ */
 @Configuration
 public class FeignConfig {
 

@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * The AuthenticationController class handles user authentication-related
+ * requests such as registration and login.
+ */
 @RestController
 @RequestMapping("/auth")
 public class AuthenticationController {

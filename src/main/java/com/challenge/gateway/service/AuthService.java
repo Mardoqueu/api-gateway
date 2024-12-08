@@ -6,6 +6,11 @@ import com.challenge.gateway.dto.UserDTO;
 import com.challenge.gateway.infrastructure.clients.AuthenticationClient;
 import org.springframework.stereotype.Service;
 
+/**
+ * AuthService class provides user authentication services by interacting with the
+ * AuthenticationClient. It facilitates user registration and login operations via
+ * the corresponding methods, delegating functionality to the client interface.
+ */
 @Service
 public class AuthService {
 

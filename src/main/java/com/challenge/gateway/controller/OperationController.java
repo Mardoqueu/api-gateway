@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.*;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ * Controller class that handles HTTP requests related to operations.
+ * It provides endpoints for executing operations, generating random strings,
+ * retrieving all operations for a user, and deleting specific operations.
+ */
 @RestController
 @RequestMapping("/operations")
 public class OperationController {

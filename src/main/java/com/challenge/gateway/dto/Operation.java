@@ -2,6 +2,11 @@ package com.challenge.gateway.dto;
 
 import java.math.BigDecimal;
 
+/**
+ * Represents an operation with an associated cost.
+ * The Operation class is used to encapsulate details about a particular operation
+ * including its unique identifier, type, and cost.
+ */
 public class Operation {
     private Long id;
     private String type;

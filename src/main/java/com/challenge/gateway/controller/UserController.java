@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 
+/**
+ * Controller for managing user-related operations.
+ * This controller provides endpoints to interact with user balances.
+ */
 @RestController
 @RequestMapping("/users")
 public class UserController {

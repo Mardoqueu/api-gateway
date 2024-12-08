@@ -11,6 +11,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * GlobalExceptionHandler is responsible for handling exceptions thrown across the Spring application.
+ * It provides a centralized exception handling mechanism for various exception types and returns
+ * a structured response entity with details about the error.
+ */
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 

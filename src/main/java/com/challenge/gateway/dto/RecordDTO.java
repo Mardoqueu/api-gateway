@@ -3,6 +3,15 @@ package com.challenge.gateway.dto;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * Data Transfer Object representing a record of an operation.
+ *
+ * This class encapsulates details about an operation performed by a user,
+ * including identifiers, monetary amounts, the user's balance after the
+ * operation, the response string of the operation, the timestamp of the
+ * operation, and the mathematical or logical expression involved in the
+ * operation.
+ */
 public class RecordDTO {
 
     private Long id;

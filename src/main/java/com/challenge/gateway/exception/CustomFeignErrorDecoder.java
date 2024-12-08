@@ -11,6 +11,13 @@ import org.springframework.web.server.ResponseStatusException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * A custom error decoder for Feign clients that interprets HTTP response statuses
+ * and constructs corresponding exceptions with detailed messages.
+ *
+ * This class implements the Feign ErrorDecoder interface to provide customized behavior
+ * for error handling by decoding response statuses into specific exceptions.
+ */
 public class CustomFeignErrorDecoder implements ErrorDecoder {
 
     private final ObjectMapper objectMapper = new ObjectMapper();

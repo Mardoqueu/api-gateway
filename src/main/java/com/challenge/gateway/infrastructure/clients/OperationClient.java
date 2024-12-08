@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.*;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ * Interface for interacting with the Operations API using Feign Client.
+ * Provides methods to perform various operations such as generating random strings,
+ * executing operations, retrieving all operations for a user, and deleting an operation.
+ */
 @FeignClient(value="operationsClient", url = "https://api-operations-d91ca211c6ab.herokuapp.com/api/operations",  configuration = FeignConfig.class)
 public interface OperationClient {
 

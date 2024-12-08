@@ -6,6 +6,10 @@ import com.challenge.gateway.infrastructure.clients.UserClient;
 import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 
+/**
+ * UserService is responsible for managing user balance operations.
+ * This service interfaces with the remote user client to perform balance updates and retrievals.
+ */
 @Service
 public class UserService {
 

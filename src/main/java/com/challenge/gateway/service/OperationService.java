@@ -9,6 +9,11 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ * Service class responsible for handling operations through the OperationClient.
+ * This class provides methods to generate random strings, execute operations,
+ * list all operations for a given user, and delete an operation by its ID.
+ */
 @Service
 public class OperationService {
 
